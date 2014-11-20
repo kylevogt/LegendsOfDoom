@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Legends Of Doom!</title>
+<script type="text/javascript" src="processing.js"></script> 
+<script type="text/javascript" src="minim.js"></script>
+	<style>
+		body {
+			background-color: #8ec466;
+		}
+		#playScrn {
+			position: relative;
+			left: auto;
+			right: auto;
+		}
+		#container {
+			border: 2px solid;
+  			border-radius: 25px;
+			position: relative;
+		    margin-left: auto;
+		    margin-right: auto;
+            height: 800px;
+		    width: 600px;
+		}
+        .noMargin{
+            margin:0;
+        }
+	</style>
+</head>
+
+<body id="playScrn">
+	<!--<img id="titleScreen" src="img/titleScreen.png" alt="titleScreen.png"> -->
+	<div id="container">
+		
+		<h1>Legends Of Doom</h1>
+		<canvas id="mario" data-processing-sources="main.pde
+                                                    preloads.pde
+                                                    spriteengine.pde
+													GameLoader.pde
+                                                    drawbackground.pde
+
+                                                    ViewBox.pde
+                                                    Level.pde
+                                                    LevelLayer.pde
+
+                                                    Drawable.pde
+                                                      Positionable.pde
+														Position.pde
+                                                        Actor.pde
+                                                          Player.pde
+                                                          Interactor.pde
+                                                            BoundedInteractor.pde
+                                                          Pickup.pde
+                                                        Boundary.pde
+                                                        BoundaryCollisionListener.pde
+                                                        Trigger.pde
+                                                        Sprite.pde
+                                                          Decal.pde
+                                                        TilingSprite.pde
+
+                                                    Screen.pde
+
+                                                    CollisionDetection.pde
+                                                    debugfunctions.pde
+                                                    ShapePrimitives.pde
+                                                    SpriteMapHandler.pde
+                                                    SpritePath.pde
+                                                    SpritePathChunker.pde
+                                                    SoundManager.pde
+                                                    State.pde
+                                                    Tracker.pde
+
+                                                    JavaScript.pde" style="border: 1px solid black; image-rendering: -webkit-optimize-contrast !important;" tabindex="0" ></canvas>
+		
+	</div>
+
+</body>
+
+</html>
